@@ -27,9 +27,7 @@ public class QuanLyDanhBa {
 
     public int timKiem(String soDienThoai) {
         for (int i = 0; i < list.size(); i++) {
-//            if (soDienThoai == list.get(i).getSoDienThoai()) {
-//                return i;
-//            }
+
             if (list.get(i).getSoDienThoai().equals(soDienThoai)) {
                 return i;
             }
